@@ -135,6 +135,8 @@ The empirical evaluation was executed across all 2,768 trading sessions. The res
 
 **Statistical Conclusion**: All four hypotheses fail to reach statistical significance under the primary HAC inference ($p > 0.30$). After Bonferroni and Benjamini-Hochberg adjustments, the number of confirmed discoveries is **zero**.
 
+*Figure 2: Primary Confirmatory Information Coefficient Forest Plot with Newey-West HAC 95% Confidence Intervals (`reports/figures/fig2_confirmatory_ic_forest_plot.png`).*
+
 ---
 
 ## 11. Combined Baseline Signal
@@ -209,6 +211,8 @@ Evaluating the EqualWeight Long-Short strategy across the 5 predefined cost regi
 | **High** | $30\text{ bps}$ | $-46.66\%$ | $9.23\%$ | $-6.753$ | $-99.90\%$ | $\$10,388,886$ | $\$10,044$ |
 | **Very High** | $50\text{ bps}$ | $-60.69\%$ | $9.51\%$ | $-9.751$ | $-100.00\%$ | $\$10,400,683$ | $\$352$ |
 
+*Figure 3: Transaction Cost Sensitivity Curves across Five Cost Regimes (`reports/figures/fig3_cost_sensitivity_curves.png`).*
+
 ---
 
 ## 16. Walk-Forward Expanding Windows Validation
@@ -230,6 +234,8 @@ The strategy was evaluated across 7 expanding windows. The 6 development windows
 - **Sharpe Ratio**: **$-3.403$**
 - **Maximum Drawdown**: **$-89.71\%$**
 - **Cumulative Trading Costs**: $\$16.85\text{M}$ paid across the 6 separate $\$10\text{M}$ initializations ($\approx \$2.8\text{M}$/year).
+
+*Figure 4: Annual Out-of-Sample Sharpe Performance across Expanding Development Windows (2018–2023) and 2024 Final Holdout (`reports/figures/fig4_walk_forward_oos_performance.png`).*
 
 ---
 
@@ -288,6 +294,20 @@ The entire 95% empirical confidence interval lies deeply in negative territory.
 ### 19.5 Market-Regime Slicing
 - **Volatility Regimes**: Low Vol ($\text{Sharpe} = -5.472$), Normal Vol ($\text{Sharpe} = -3.531$), High Vol ($\text{Sharpe} = -2.967$).
 - **Trend Regimes**: Bull Trend ($\text{Sharpe} = -3.836$), Bear Trend ($\text{Sharpe} = -3.140$).
+
+### 19.6 Exploratory Extension: Signal Horizon Profile & Half-Life Decay
+> **Disclaimer**: This exploratory analysis investigates horizon decay dynamics and is explicitly **not part of the pre-specified confirmatory hypothesis family**. It does not alter the primary confirmatory conclusions or hypothesis registry.
+
+To evaluate whether any signal contains short-lived predictive structure despite failing at its pre-specified horizon, daily cross-sectional Spearman IC was computed across $h \in \{1\text{d}, 5\text{d}, 10\text{d}, 20\text{d}, 40\text{d}, 60\text{d}\}$ using Newey-West HAC standard errors:
+
+| Signal Anomaly | $1\text{d}$ Mean IC | $5\text{d}$ Mean IC | $10\text{d}$ Mean IC | $20\text{d}$ Mean IC | $40\text{d}$ Mean IC | $60\text{d}$ Mean IC | Decay Dynamic |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **$H_1$: Momentum** | $+0.0161$ | $+0.0134$ | $+0.0086$ | $+0.0021$ | $-0.0009$ | $-0.0028$ | Monotonic decay toward zero and negative by $40\text{d}$ |
+| **$H_2$: Mean Reversion** | $+0.0020$ | $+0.0005$ | $-0.0025$ | $+0.0004$ | $+0.0062$ | $+0.0061$ | Flat near zero across all horizons ($p > 0.60$) |
+| **$H_3$: Low Volatility** | $+0.0076$ | $+0.0050$ | $+0.0034$ | $-0.0027$ | $-0.0156$ | $-0.0193$ | Mild positive short-term drifting into negative long-term |
+| **$H_4$: Abnormal Volume** | $-0.0048$ | $-0.0026$ | $-0.0033$ | $-0.0015$ | $-0.0009$ | $-0.0018$ | Weak negative correlation across all horizons |
+
+*Figure 5: Exploratory Signal Half-Life & Horizon Decay Profile across 1d–60d Horizons (`reports/figures/fig5_exploratory_ic_horizon_profile.png`).*
 
 ---
 
