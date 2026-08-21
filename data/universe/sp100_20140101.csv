@@ -1,0 +1,101 @@
+ticker,name,sector
+AAPL,Apple Inc.,Information Technology
+ABBV,AbbVie Inc.,Health Care
+ABT,Abbott Laboratories,Health Care
+ACN,Accenture plc,Information Technology
+AEP,American Electric Power Co.,Utilities
+AIG,American International Group Inc.,Financials
+ALL,Allstate Corp.,Financials
+AMGN,Amgen Inc.,Health Care
+AMZN,Amazon.com,Consumer Discretionary
+APA,Apache Corp.,Energy
+APC,Anadarko Petroleum Corporation,Energy
+AXP,American Express Inc.,Financials
+BA,Boeing Co.,Industrials
+BAC,Bank of America Corp,Financials
+BAX,Baxter International Inc,Health Care
+BK,Bank of New York,Financials
+BMY,Bristol-Myers Squibb,Health Care
+BRK.B,Berkshire Hathaway,Financials
+C,Citigroup Inc,Financials
+CAT,Caterpillar Inc,Industrials
+CL,Colgate-Palmolive Co.,Consumer Staples
+CMCSA,Comcast Corporation,Consumer Discretionary
+COF,Capital One Financial Corp.,Financials
+COP,ConocoPhillips,Energy
+COST,Costco,Consumer Staples
+CSCO,Cisco Systems,Information Technology
+CVS,CVS Caremark,Consumer Staples
+CVX,Chevron,Energy
+DD,DuPont,Materials
+DIS,The Walt Disney Company,Consumer Discretionary
+DOW,Dow Chemical,Materials
+DVN,Devon Energy,Energy
+EBAY,eBay Inc.,Consumer Discretionary
+EMC,EMC Corporation,Information Technology
+EMR,Emerson Electric Co.,Industrials
+EXC,Exelon,Utilities
+F,Ford Motor,Consumer Discretionary
+FB,Facebook,Communication Services
+FCX,Freeport-McMoran,Materials
+FDX,FedEx,Industrials
+FOXA,Twenty-First Century Fox Inc,Consumer Discretionary
+GD,General Dynamics,Industrials
+GE,General Electric Co.,Industrials
+GILD,Gilead Sciences,Health Care
+GM,General Motors,Consumer Discretionary
+GOOG,Google Inc.,Communication Services
+GS,Goldman Sachs,Financials
+HAL,Halliburton,Energy
+HD,Home Depot,Consumer Discretionary
+HON,Honeywell,Industrials
+HPQ,Hewlett Packard Co,Information Technology
+IBM,International Business Machines,Information Technology
+INTC,Intel Corporation,Information Technology
+JNJ,Johnson & Johnson Inc,Health Care
+JPM,JP Morgan Chase & Co,Financials
+KO,The Coca-Cola Company,Consumer Staples
+LLY,Eli Lilly and Company,Health Care
+LMT,Lockheed-Martin,Industrials
+LOW,Lowe's,Consumer Discretionary
+MA,Mastercard Inc,Information Technology
+MCD,McDonald's Corp,Consumer Discretionary
+MDLZ,Mondelez International,Consumer Staples
+MDT,Medtronic Inc.,Health Care
+MET,Metlife Inc.,Financials
+MMM,3M Company,Industrials
+MO,Altria Group,Consumer Staples
+MON,Monsanto,Materials
+MRK,Merck & Co.,Health Care
+MS,Morgan Stanley,Financials
+MSFT,Microsoft,Information Technology
+NKE,Nike,Consumer Discretionary
+NOV,National Oilwell Varco,Energy
+NSC,Norfolk Southern Corp,Industrials
+ORCL,Oracle Corporation,Information Technology
+OXY,Occidental Petroleum Corp.,Energy
+PEP,Pepsico Inc.,Consumer Staples
+PFE,Pfizer Inc,Health Care
+PG,Procter & Gamble Co,Consumer Staples
+PM,Phillip Morris International,Consumer Staples
+QCOM,Qualcomm Inc.,Information Technology
+RTN,Raytheon Co (NEW),Industrials
+SBUX,Starbucks Corporation,Consumer Discretionary
+SLB,Schlumberger,Energy
+SO,Southern Company,Utilities
+SPG,Simon Property Group Inc.,Real Estate
+T,AT&T Inc,Communication Services
+TGT,Target Corp.,Consumer Discretionary
+TWX,Time Warner Inc.,Consumer Discretionary
+TXN,Texas Instruments,Information Technology
+UNH,UnitedHealth Group Inc.,Health Care
+UNP,Union Pacific Corp.,Industrials
+UPS,United Parcel Service Inc,Industrials
+USB,US Bancorp,Financials
+UTX,United Technologies Corp,Industrials
+V,Visa Inc.,Information Technology
+VZ,Verizon Communications Inc,Communication Services
+WAG,Walgreens,Consumer Staples
+WFC,Wells Fargo,Financials
+WMT,Wal-Mart,Consumer Staples
+XOM,Exxon Mobil Corp,Energy

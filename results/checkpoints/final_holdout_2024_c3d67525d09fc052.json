@@ -1,0 +1,25 @@
+{
+  "checkpoint_version": "1.2",
+  "created_at_utc": "2026-08-21T20:56:50.370515+00:00",
+  "data_hash": "c3d67525d09fc052",
+  "feature_hash": "18b4358995ae9881",
+  "signal_hash": "a8e62995b6a4950f",
+  "config_hash": "3e3b02ce22d1afd3af30aa60520eac232c8d2a765f66d170aed514e0406e638c",
+  "hypothesis_registry_hash": "3caabc3550691880f4d66cc24a7a4ad14b76f623c169fd065cd2470fb3025840",
+  "holdout_window": {
+    "window_id": 7,
+    "train_period": "2014-01-01 to 2023-12-31",
+    "test_period": "2024-01-01 to 2024-12-31",
+    "is_final_holdout": true,
+    "tag": "[FINAL HOLDOUT]",
+    "cagr": -0.22832551613051932,
+    "volatility": 0.05484997653003592,
+    "sharpe": -4.695744171835487,
+    "sortino": -4.579133480046263,
+    "max_dd": -0.23728542709462566,
+    "psr": 1.7068597761099943e-05,
+    "turnover": 231.84508676175676,
+    "total_cost": 3060870.263945016,
+    "terminal_equity": 7716744.838694806
+  }
+}
